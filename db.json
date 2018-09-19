@@ -1,25 +1,44 @@
 {
-  "devices": [
-    {
-      "label": "One Plus 8",
-      "os": "android",
-      "price": 750,
-      "rate": 3,
-      "memory": 7400,
-      "desc": "One Plus 5 is a flagship phone...",
-      "id": 2
-    },
-    {
-      "label": "IPhone 7 +",
-      "os": "ios",
-      "price": 700,
-      "rate": 3,
-      "memory": 3000,
-      "desc": "",
-      "id": 24
-    }
-  ],
-  "login": {
-    "token": "efoiwejo32r32-fake-token"
-  }
+  "items": [
+      {
+          "id": "d1e494c7-2cc9-4fb6-9436-7852e4764c97",
+          "type": "DELIVERY",
+          "datetime_start": "2018-09-10T08:59:59Z",
+          "datetime_end": "2018-09-10T09:59:59Z",
+          "title": "disponibilta",
+          "description": null,
+          "ald_reference_type": null,
+          "ald_reference_id": null,
+          "place": {
+              "place_id": "37c81494-8e34-4ab1-b66b-390e1e5d079e",
+              "name": "FRATTAMELLO CARSERVICE SRL",
+              "type": "SERVICE_POINT",
+              "contact_phone": "3389898888",
+              "ald_commodity_id": 431252,
+              "address": "Viale Marconi 123, 00100 Roma",
+              "lat": 12.38745632,
+              "lng": 26.89561423
+          },
+          "guests": [
+              {
+                  "name": "Pablo",
+                  "mobile": "345123456",
+                  "type": "MYALD_DRIVER",
+                  "user_id": "43425ca4-37d4-4523-8a38-928aa8d5f013",
+                  "is_owner": true,
+                  "has_accepted": true
+              },
+              {
+                  "name": "PERITO123",
+                  "mobile": "34156145",
+                  "type": "NEMO_EXPERT",
+                  "user_id": "0e973952-b5b1-4541-a6a1-3e3d85e8d7f0",
+                  "is_owner": true,
+                  "has_accepted": true
+              }
+          ],
+          "created_at": "2018-09-12T09:47:33Z",
+          "updated_at": "2018-09-12T09:47:33Z"
+      }
+  ]
 }
